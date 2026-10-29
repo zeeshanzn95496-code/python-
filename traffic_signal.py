@@ -1,8 +1,8 @@
 import time 
 roads = ["North", "East", "South", "West"]
 
-Normal_Time = 5
-Emergency_Time = 3
+Normal_Time = 7
+Emergency_Time = 4
 
 while True:
     print("\n traffic signal system")
