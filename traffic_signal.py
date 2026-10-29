@@ -1,16 +1,16 @@
 import time 
 roads = ["North", "East", "South", "West"]
 
-Normal_Time = 7
-Emergency_Time = 4
+Normal_Time = 5
+Emergency_Time = 3
 
 while True:
-    print("\n traffic signal system")
-    print("1. normal traffic")
-    print("2. ambulance emergency")
-    print("3. exit")
+    print("\n++++++ TRAFFIC SIGNAL SYSTEM ++++++")
+    print("1. NORMAL TRAFFIC")
+    print("2. AMBULANCE EMERGENCY")
+    print("3. EXIT ")
 
-    choice = input("enter your choice: ")
+    choice = input("ENTER YOUR CHOICE: ")
 
     if choice == "1":
         for road in roads:
@@ -20,15 +20,14 @@ while True:
                     print("RED:", other_road)
             time.sleep(Normal_Time)
 
-    # These must line up with 'if choice == "1":'
     elif choice == "2":
-        ambulance_road = input("enter ambulance road first letter in capital (North/East/South/West): ").strip().title()
+        ambulance_road = input("ENTER AMBULANCE ROAD FIRST WORD IN CAPITAL (North/East/South/West): ").strip().title()
 
         if ambulance_road not in roads:
-            print("invalid road !! try again")
+            print("INVALID CHOICE!! TRY AGAIN")
             continue
 
-        print("ambulance detected on :", ambulance_road)
+        print("AMBULANCE DETECTED ON:", ambulance_road)
         for road in roads:
             if road == ambulance_road:
                 print("Green:", road)
@@ -39,8 +38,8 @@ while True:
         print("emergency phase completed<3")
 
     elif choice == "3":
-        print("traffic system stopped.")
+        print("++++++ TRAFFIC SYSTEM STOPPED  ++++++.")
         break
         
     else:
-        print("invalid choice !!\n choice must be in 1,2 or 3 !!")
+        print("INVALID CHOICE!!\n CHPICE MUST BE IN  1,2 or 3 !!")
