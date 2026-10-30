@@ -8,15 +8,16 @@ if pin == user_pin:
     print("HELLO",Name,"to XYZ ATM")
 
     while True:
-        print("\n 1. check balance ")
-        print("\n 2. deposit Money")
-        print("\n 3. Withdraw Money")
-        print("\n 4. Exit")
+        print("\n 1. check balance")
+        print(" 2. deposit Money")
+        print(" 3. Withdraw Money")
+        print(" 4. Exit")
 
         choice=int(input("enter your choice from(1/2/3/4):"))
 
         if choice==1:
             print("Your Current Balance Is Rs:",balance)
+         
         elif choice==2:
             amount=int(input("Enter Deposit Amount:"))
             if amount>0:
@@ -33,6 +34,15 @@ if pin == user_pin:
                 balance=balance-amount
                 print("Collect Your Cash")
                 print("Remaininig Balance:Rs",balance)
+            else:
+                print("Insufficient Balance!")
+        elif choice==4:
+                 print("Thank You ")
+                 break
+        else:
+            print("Invalid Choice Try Again.")
+else:
+        print("Incorrect Pin Access Denied")
 
 
         
