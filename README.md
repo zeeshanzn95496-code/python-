@@ -24,3 +24,39 @@ Make sure you have **Python 3.x** installed on your system. No external librarie
 
 ```bash
 python traffic_signal.py
+
+
+---------------------------------------------------------------------------------------------------
+
+# 🏧 Python ATM Simulator
+
+A beginner-friendly command-line interface (CLI) application built in Python that simulates basic Automated Teller Machine (ATM) banking operations.
+
+---
+
+## ✨ Features
+
+- **Secure Authentication:** Prompts the user for a name and a 4-digit PIN before granting access.
+- **Balance Inquiry:** View the current account balance in real-time.
+- **Deposit Funds:** Add money to the account with input validation ensuring only positive values are accepted.
+- **Withdraw Cash:** Withdraw funds safely with built-in checks for insufficient funds and invalid amounts.
+- **Interactive Session Loop:** Runs continuously until the user explicitly chooses to exit.
+
+---
+
+## 🔐 Default Test Credentials
+
+Use these credentials when running the program for the first time:
+- **PIN:** `3175`
+- **Initial Balance:** `Rs. 75,000`
+
+---
+
+## 🚀 How to Run
+
+1. Make sure you have **Python** installed on your computer.
+2. Copy the Python script into a file named `atm.py`.
+3. Open your terminal or command prompt in the directory where the file is saved.
+4. Run the script using the following command:
+   ```bash
+   python atm.py
