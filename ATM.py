@@ -23,6 +23,16 @@ if pin == user_pin:
                 balance=balance+amount
                 print("Amount Deposited Successfully!")
                 print ("Updated Balance:",balance)
+            else:
+                print("Enter A Valid Amount !")
+        elif choice==3:
+            amount=int(input("Enter Withdrawal Amount"))
+            if amount<0:
+                print("Enter A Valid Amount!")
+            elif amount<=balance:
+                balance=balance-amount
+                print("Collect Your Cash")
+                print("Remaininig Balance:Rs",balance)
 
 
         
