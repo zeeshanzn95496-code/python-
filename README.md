@@ -1,3 +1,6 @@
+                              01 traffic signal
+---------------------------------------------------------------------------------------------------
+
 # 🚦 Python Traffic Signal & Emergency System
 
 A simple, interactive command-line traffic signal simulation written in Python. This project simulates a standard 4-way traffic light cycle with support for an emergency vehicle override (ambulance).
@@ -26,6 +29,9 @@ Make sure you have **Python 3.x** installed on your system. No external librarie
 python traffic_signal.py
 
 
+
+
+                                       02  ATM 
 ---------------------------------------------------------------------------------------------------
 
 # 🏧 Python ATM Simulator
