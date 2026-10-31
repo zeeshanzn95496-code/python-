@@ -1,3 +1,4 @@
+
 pin = 3175
 balance = 75000
 
@@ -6,7 +7,6 @@ user_pin = int(input("enter you pin:"))
 
 if pin == user_pin:
     print("HELLO",Name,"to XYZ ATM")
-
     while True:
         print("\n 1. check balance")
         print(" 2. deposit Money")
