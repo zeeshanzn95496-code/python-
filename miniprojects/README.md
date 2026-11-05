@@ -66,3 +66,40 @@ Use these credentials when running the program for the first time:
 4. Run the script using the following command:
    ```bash
    python atm.py
+
+
+
+
+
+                                       03  File Explorer
+---------------------------------------------------------------------------------------------------
+
+# 📂 Python File Explorer
+
+A simple command-line file explorer written in Python that lets you navigate and manage files and folders from the terminal.
+
+## ✨ Features
+
+- **Show Current Directory:** Displays the directory you are currently working in.
+- **List Files:** Lists all files in the current directory.
+- **Create a Folder:** Creates a new folder with automatic checking to avoid duplicates.
+- **Rename a File:** Renames an existing file after verifying it exists.
+- **Search Python Files:** Recursively scans the directory tree and counts all `.py` files found.
+- **Interactive Menu Loop:** Runs continuously until you choose to exit.
+
+---
+
+## 🛠️ Prerequisites
+
+Make sure you have **Python 3.x** installed on your system. No external libraries or pip packages are required since it uses Python's built-in `os` module.
+
+---
+
+## 🚀 How to Run
+
+1. Clone or download this repository/script file.
+2. Open your terminal or command prompt in the directory containing the script.
+3. Run the script using Python:
+
+```bash
+python file_explorer.py
